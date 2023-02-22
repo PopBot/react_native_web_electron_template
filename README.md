@@ -14,4 +14,4 @@ npm run build
 npm run start
 ```
 
-This project was hacked together because of Lucas Mórawski's [How to: React Native Web app. A Happy Struggle.], the [MongoDB Guide for setting up React and Electron](https://www.mongodb.com/docs/realm/sdk/node/integrations/electron-cra/), (https://blog.bitsrc.io/how-to-react-native-web-app-a-happy-struggle-aea7906f4903), [babel-plugin-react-native-web](https://www.npmjs.com/package/babel-plugin-react-native-web) npmjs page, and the [Electron Quick Start](https://www.electronjs.org/docs/latest/tutorial/quick-start).
+This project was hacked together because of Lucas Mórawski's [How to: React Native Web app. A Happy Struggle.](https://blog.bitsrc.io/how-to-react-native-web-app-a-happy-struggle-aea7906f4903), the [MongoDB Guide for setting up React and Electron](https://www.mongodb.com/docs/realm/sdk/node/integrations/electron-cra/), [babel-plugin-react-native-web](https://www.npmjs.com/package/babel-plugin-react-native-web) npmjs page, and the [Electron Quick Start](https://www.electronjs.org/docs/latest/tutorial/quick-start).
