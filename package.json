@@ -1,0 +1,53 @@
+{
+  "name": "react_native_web_electron_template",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.71.3",
+    "react-native-web": "^0.18.12",
+    "react-router-dom": "^5.2.0"
+  },
+  "main": "public/electron.js",
+  "homepage": "./",
+  "devDependencies": {
+    "babel-jest": "^29.4.3",
+    "babel-plugin-react-native-web": "^0.18.12",
+    "electron": "^23.1.0",
+    "eslint": "^8.19.0",
+    "jest": "^27.5.1",
+    "react-scripts": "5.0.1",
+    "react-test-renderer": "^18.2.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "jest",
+    "start-web": "react-scripts start",
+    "build": "craco build",
+    "test-web": "react-scripts test --env=jsdom",
+    "eject-web": "react-scripts eject",
+    "run-electron-app": "react-scripts start && electron .",
+    "electron": "electron ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
